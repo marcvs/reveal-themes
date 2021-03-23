@@ -1,0 +1,33 @@
+.reveal n{
+}
+.reveal syn-yellow{
+  color: #f8db0c; }
+.reveal syn-red{
+  color: #be2832; }
+.reveal syn-green{
+  color: #c9d22a; }
+.reveal syn-blue{
+  color: #73bbdc; }
+.reveal white {
+  color: #ffffff; }
+.reveal red{
+  color: #ee2222; }
+.reveal blue{
+  color: #22ee22; }
+.reveal green{
+  color: #2222ee; }
+.reveal gray{
+  color: #888888; }
+.reveal gray25{
+  color: #cccccc; }
+.reveal gray50{
+  color: #888888; }
+.reveal gray75{
+  color: #444444; }
+
+.reveal smallest {
+  display: inline-block;
+  font-size: 0.4em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
