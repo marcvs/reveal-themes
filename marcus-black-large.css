@@ -205,14 +205,13 @@ body {
   line-height: 1.2em;
   vertical-align: top; }
 
-.reveal smallest {
-  display: inline-block;
-  font-size: 0.4em;
-  line-height: 1.2em;
-  vertical-align: top; }
-
 .reveal small * {
   vertical-align: top; }
+
+/*********************************************
+ * Marcus Common
+ *********************************************/
+@import "marcus-common.css";
 
 /*********************************************
  * LINKS
