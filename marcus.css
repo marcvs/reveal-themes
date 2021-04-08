@@ -67,6 +67,20 @@ body {
 
 .reveal h1 {
   text-shadow: none; }
+/*.reveal h1 {*/
+/*  font-size: 2.57em; }*/
+/**/
+/*.reveal h2 {*/
+/*  font-size: 1.51em; }*/
+/**/
+/*.reveal h3 {*/
+/*  font-size: 1.05em; }*/
+/**/
+/*.reveal h4 {*/
+/*  font-size: 0.9em; }*/
+/**/
+/*.reveal h1 {*/
+/*  text-shadow: none; }*/
 
 /*********************************************
  * OTHER
@@ -212,7 +226,68 @@ body {
 /*********************************************
  * Marcus Common
  *********************************************/
-@import "marcus-common.css";
+/*@import "marcus-common.css";*/
+.reveal smaller {
+  display: inline-block;
+  font-size: 0.4em;
+  line-height: 1.0em;
+  vertical-align: top; }
+.reveal smallest {
+  display: inline-block;
+  font-size: 0.4em;
+  line-height: 1.2em;
+  vertical-align: top; }
+.reveal n{
+}
+.reveal syn-yellow{
+  color: #f8db0c; }
+.reveal syn-red{
+  color: #be2832; }
+.reveal syn-green{
+  color: #c9d22a; }
+.reveal syn-blue{
+  color: #73bbdc; }
+.reveal white {
+  color: #ffffff; }
+.reveal red{
+  color: #ee2222; }
+.reveal blue{
+  color: #22ee22; }
+.reveal green{
+  color: #2222ee; }
+.reveal gray{
+  color: #888888; }
+.reveal gray25{
+  color: #cccccc; }
+.reveal gray50{
+  color: #888888; }
+.reveal gray75{
+  color: #444444; }
+.reveal narrow{
+    letter-spacing:-4px;}
+.reveal narrower{
+    letter-spacing:-8px;}
+.reveal fontsize1{
+  font-size: 1em; }
+
+.reveal strikethrough {
+  position: relative;
+}
+.reveal strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -100%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-25deg);
+  -moz-transform:rotate(-25deg);
+  -ms-transform:rotate(-25deg);
+  -o-transform:rotate(-25deg);
+  transform:rotate(-25deg);
+}
 
 /*********************************************
  * LINKS
