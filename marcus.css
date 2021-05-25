@@ -218,10 +218,10 @@ body {
   display: inline-block;
   font-size: 0.6em;
   line-height: 1.2em;
-  vertical-align: top; }
+  vertical-align: middle; }
 
 .reveal small * {
-  vertical-align: top; }
+  vertical-align: middle; }
 
 /*********************************************
  * Marcus Common
@@ -230,16 +230,21 @@ body {
 .reveal .slide-number {
   font-size: 24pt;
   color: #ffffff; }
+.reveal bitsmall {
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1.0em;
+  vertical-align: middle; }
 .reveal smaller {
   display: inline-block;
   font-size: 0.4em;
   line-height: 1.0em;
-  vertical-align: top; }
+  vertical-align: middle; }
 .reveal smallest {
   display: inline-block;
   font-size: 0.4em;
   line-height: 1.2em;
-  vertical-align: top; }
+  vertical-align: middle; }
 .reveal n{
 }
 .reveal syn-yellow{
