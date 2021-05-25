@@ -227,6 +227,9 @@ body {
  * Marcus Common
  *********************************************/
 /*@import "marcus-common.css";*/
+.reveal .slide-number {
+  font-size: 24pt;
+  color: #ffffff; }
 .reveal smaller {
   display: inline-block;
   font-size: 0.4em;
